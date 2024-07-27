@@ -1,0 +1,288 @@
+/* CSS Reset */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: var(--black);
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Actual stuff */
+:root {
+  --background: #30303c;
+  --text: #e8e6de;
+  --primary: #db8a4c;
+  --secondary: #fdc84c;
+  --tertiary: #3b4e5b;
+  --tertiary-light: #5f8294;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: Consolas, monospace;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+header nav ul,
+header section {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+header h1 {
+  font-size: xx-large;
+}
+
+header nav a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--primary);
+  color: var(--text);
+  transition: all 0.3s ease;
+}
+
+header nav a:hover, header nav a.current {
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-weight: bold;
+  border-bottom-width: 2px;
+}
+
+/* Main */
+
+main {
+  margin: 0 10px;
+}
+
+/* Sections */
+
+main > section {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+/* Hero */
+
+section.hero {
+  background-color: var(--tertiary);
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+section.hero img {
+  height: 100px;
+  clip-path: polygon(0px 15px,100px 15px,100px 100px, 0px 100px);
+  margin-top: -15px;
+}
+
+section.hero p {
+  font-size: large;
+  font-family: Consolas, monospace;
+}
+
+/* Contact Form */
+
+section.contact-form .question {
+  margin-bottom: 5px;
+}
+
+.question-group {
+  display: flex;
+  gap: 20px;
+}
+
+.question-group .question {
+  width: 100%;
+}
+
+.question label {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 2px;
+}
+
+.question input,
+.question textarea,
+.question label {
+  display: inline-block;
+}
+
+.question input,
+.question textarea {
+  background-color: transparent;
+  border: solid 1px var(--text);
+  border-radius: 4px;
+  width: 100%;
+  padding: 5px;
+  color: var(--text);
+  font-family: Consolas, monospace;
+  font-size: 0.8em;
+}
+
+.question textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.question input[type="submit"] {
+  background-color: var(--primary);
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  font-size: 1em;
+}
+
+@keyframes shake {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translate3d(1px, 0, 0);
+  }
+}
+
+.question input[type="submit"]:hover {
+  filter: contrast(150%);
+  animation-name: shake;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+
+.question input:focus-visible,
+.question textarea:focus-visible {
+  border: solid 1px var(--secondary);
+  outline: none;
+  caret-color: var(--text);
+}
+
+/* Project */
+
+.project {
+  background-color: var(--tertiary);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.3s ease;
+  border-top: 5px solid var(--tertiary);
+  border-bottom: 5px solid var(--tertiary);
+}
+
+.project:hover {
+    border-top-color: var(--secondary)
+}
+
+.project .project-image {
+  height: 100px;
+    border-radius: 4px;
+    background-color: var(--text);
+}
+
+.project .project-text {
+    width: 100%;
+}
+
+/* Biography */
+
+section.biography p {
+  margin-bottom: 10px;
+}
+
+section.biography p.quote {
+  padding: 5px 10px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  border-left: 1px solid var(--secondary);
+  font-style: italic;
+}
+
+section.biography p.quote em {
+  font-style: normal;
+}

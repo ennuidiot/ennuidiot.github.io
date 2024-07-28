@@ -1,9 +1,3 @@
-<style>
-    .red {
-        color: red
-    }
-</style>
-
 #  ennuidiot - Portfolio Task
 ​
 [My portfolio site](https://ennuidiot.github.io/)
@@ -12,9 +6,9 @@
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [x] At least one profile picture <span class="red">(if Rowlet counts)</span>
-- [x] Biography (at least 100 words) <span class="red">(my biography is jokey/lorem ipsum-y but you should do a serious one)</span>
-- [x] Functional Contact Form <span class="red">(might not be an actual requirement, hold please)</style>
+- [x] At least one profile picture <small>(if Rowlet counts)</small>
+- [x] Biography (at least 100 words) <small>(my biography is jokey/lorem ipsum-y but you should do a serious one)</small>
+- [x] Functional Contact Form <small>(might not be an actual requirement, hold please)</small>
 - [x] "Projects" section 
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
 ​

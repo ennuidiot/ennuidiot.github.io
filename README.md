@@ -6,11 +6,15 @@
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [x] At least one profile picture <small>(if Rowlet counts)</small>
-- [x] Biography (at least 100 words) <small>(my biography is jokey/lorem ipsum-y but you should do a serious one)</small>
-- [x] Functional Contact Form <small>(might not be an actual requirement, hold please)</small>
+- [x] At least one profile picture[^1] 
+- [x] Biography (at least 100 words)[^2]
+- [x] Functional Contact Form[^3]
 - [x] "Projects" section 
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
+
+[^1]: If Rowlet counts
+[^2]: My biography is jokey/lorem ipsum-y but you should do a serious one
+[^3]: Might not be an actual requirement, hold please
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 

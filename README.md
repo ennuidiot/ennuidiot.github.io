@@ -43,13 +43,13 @@ I highly encourage you to go above and beyond if possible - have your content re
 sizes.
 
 ####  `index.html`, >800-ish pixels
-![The index page of a portfolio website, featuring a biography and a contact form.](./readme_img/index_large.jpeg)
+![The index page of a portfolio website, featuring a biography and a contact form](./readme_img/index_large.jpeg)
 
 ####  `projects.html`, >800-ish pixels
-![The projects page of a portfolio website, featuring multiple projects and their descriptions.](./readme_img/projects_large.jpeg)
+![The projects page of a portfolio website, featuring multiple projects and their descriptions](./readme_img/projects_large.jpeg)
 
 ####  `index.html`, <800-ish pixels
-![The index page of a portfolio website, featuring a biography and a contact form.](./readme_img/index_small.jpeg)
+![The index page of a portfolio website, featuring a biography and a contact form](./readme_img/index_small.jpeg)
 
 ####  `projects.html`, <800-ish pixels
-![The projects page of a portfolio website, featuring multiple projects and their descriptions.](./readme_img/projects_small.jpeg)
+![The projects page of a portfolio website, featuring multiple projects and their descriptions](./readme_img/projects_small.jpeg)
